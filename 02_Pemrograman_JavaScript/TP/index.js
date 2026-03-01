@@ -14,3 +14,5 @@ function mulOfArray(arr) {
 // Panggil fungsinya
 const arr1Result = mulOfArray(arr1);
 console.log(arr1Result);
+
+//Ulung_Putra_Sadewo_10312240013
