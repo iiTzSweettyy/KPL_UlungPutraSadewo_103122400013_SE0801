@@ -15,4 +15,4 @@ function mulOfArray(arr) {
 const arr1Result = mulOfArray(arr1);
 console.log(arr1Result);
 
-//Ulung_Putra_Sadewo_10312240013
+//103122400013_Ulung 
