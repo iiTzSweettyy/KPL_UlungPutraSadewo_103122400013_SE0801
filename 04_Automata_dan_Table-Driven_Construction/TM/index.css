@@ -1,0 +1,72 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.main-container {
+    text-align: left; 
+    max-width: 600px;
+    width: 90%;
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.kotak-input {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    resize: none;
+    margin-top: 10px;
+    padding: 8px;
+    font-family: 'Inconsolata', monospace;
+    border: 1px solid #ccc;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+button {
+    font-family: 'Inconsolata', monospace;
+    cursor: pointer;
+    padding: 5px 10px;
+    
+    background-color: #29ddcc; 
+    border: none;
+    color: #000;
+    
+    border-radius: 3px;
+    margin-right: 5px;
+    transition: opacity 0.2s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+body.dark-mode {
+    background-color: #2e3443;
+    color: white;
+}
+
+body.sepia-mode {
+    background-color: #F4ECD8;
+    color: #5B4636;
+}
+
+.kotak-input {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+}
